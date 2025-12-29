@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h2>Đăng ký sinh viên mới</h2>
+    <form action="">
+        <label for="name">Họ và tên</label>
+        <input type="text" id="name" value="Nguyễn Văn An">
+        <br><br>
+        <label for="dob">Ngày sinh đầy đủ</label>
+        <input type="date" id="dob" value="2005-03-15">
+        <br><br>
+        <label for="moe">Tháng và năm nhập học</label>
+        <input type="month" id="moe" value="2023-09">
+        <br><br>
+        <label for="time">Thời gian học</label>
+        <input type="time" id="time" value="08:00">
+        <br><br>
+        <label for="gender">Giới tính</label>
+        <input type="radio" name="gender">Nam
+        <input type="radio" name="gender">Nữ
+        <input type="radio" name="gender" checked>Khác
+        <br><br>
+        <label for="email">Email sinh viên</label>
+        <input type="text" id="email" value="sinhvien@university.edu.vn">
+        <br><br>
+        <label for="password">Mật khẩu</label>
+        <input type="password" id="password" value="password123">
+        <br><br>
+        <label for="aim">Mục tiêu học tập</label>
+        <textarea name="" id="aim">Muốn trở thành lập trình viên giỏi và đóng góp cho xã hội</textarea>
+        <br><br>
+        <label for="place">Cơ sở</label>
+        <select name="" id="place">
+            <option value="">Hà Nội</option>
+            <option value="">Hồ Chí Minh</option>
+            <option value="">Đà Nẵng</option>
+        </select>
+        <br><br>
+        <label for="Image">Ảnh thẻ sinh viên</label>
+        <input type="file" id="Image" multiple>
+        <br><br>
+        <label for="fav">Môn học yêu thích</label>
+        <input type="checkbox" checked> Toán học
+        <input type="checkbox" checked> Lập trình
+        <input type="checkbox"> Tiếng Anh
+        <input type="checkbox"> Vật lý
+        <br><br>
+        <label for="Progress">Tiến độ học tập</label>
+        <input type="range" max="100" value="65">
+        <br><br>
+        <label for="year">Năm học thứ</label>
+        <input type="number" id="year" value="2">
+        <br><br>
+        <label for="search">Tìm kiếm khóa học</label>
+        <input type="search" id="search" value="Khoa học máy tính">
+        <br><br>
+        <label for="color">Màu sắc yêu thích</label>
+        <input type="color" id="color">
+        <br><br>
+        <button type="reset">Hủy</button>
+        <button type="reset">Làm mới</button>
+        <button type="submit">Gửi</button>
+    </form>
+</body>
+
+</html>
